@@ -5,7 +5,7 @@
 #include <string.h> 
 #include <unistd.h> 
 #include <arpa/inet.h>
-#define PORT 5678
+#define PORT 6400
    
 int main(int argc, char const *argv[]) 
 { 
