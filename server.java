@@ -56,6 +56,6 @@ public class Server
   
     public static void main(String args[]) 
     { 
-        Server server = new Server(5678); 
+        Server server = new Server(6500); 
     } 
 } 
