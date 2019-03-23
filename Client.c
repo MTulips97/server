@@ -23,7 +23,7 @@ void main(){
 	memset(&serverAddr, '\0', sizeof(serverAddr));
 	serverAddr.sin_family = AF_INET;
 	serverAddr.sin_port = htons(PORT);
-	serverAddr.sin_addr.s_addr = inet_addr("192.168.46.134");
+	serverAddr.sin_addr.s_addr = inet_addr("192.168.216.128");
 
 	connect(SocketClient, (struct sockaddr*)&serverAddr, sizeof(serverAddr));
 	printf("      .--..--..--..--..--..--.\n");
