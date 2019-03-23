@@ -1,7 +1,7 @@
 import java.net.*; 
 import java.io.*; 
   
-class GetServer 
+class Server 
 { 
     //initialize socket and input stream 
     private Socket          socket   = null; 
@@ -9,7 +9,7 @@ class GetServer
     private DataInputStream in       =  null; 
   
     // constructor with port 
-    public GetServer(int port) 
+    public Server(int port) 
     { 
         // starts server and waits for a connection 
         try
@@ -56,6 +56,6 @@ class GetServer
   
     public static void main(String args[]) 
     { 
-        GetServer server = new GetServer(2222); 
+        Server server = new Server(2222); 
     } 
 } 
